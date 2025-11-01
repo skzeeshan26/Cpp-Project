@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     double a,b;
     char op;
-    cout<<"ener the opration:- ";
+    cout<<"Enter the opration:- ";
     cin>>a>>op>>b;
     switch (op){
         case '+':
