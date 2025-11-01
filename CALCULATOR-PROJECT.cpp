@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     double a,b;
     char op;
-    cout<<"enter the opration:- ";
+    cout<<"ener the opration:- ";
     cin>>a>>op>>b;
     switch (op){
         case '+':
@@ -22,6 +22,9 @@ int main() {
         else {
         cout<<"div is "<<a/b;
         }break;
+        default:
+            cout << "Enter a vaild opreation";
+        break;
     }
     return 0;
 }
